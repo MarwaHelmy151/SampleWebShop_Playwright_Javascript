@@ -3,11 +3,11 @@ pipeline {
 
   parameters {
     
-    choice(
-      name: 'TEST_SUITE',
-      choices: ['smoke', 'regression', 'web' , 'all'],
-      description: 'Select which test suite to run'
-    )
+    // choice(
+    //   name: 'TEST_SUITE',
+    //   choices: ['smoke', 'regression', 'web' , 'all'],
+    //   description: 'Select which test suite to run'
+    // )
 
     string(
       name: 'EMAIL_RECIPIENT',
