@@ -20,13 +20,13 @@ const config = ({
   expect: {
     timeout: 40 * 1000
   },
-  // reporter: [
-  //   ['list'],
-  //   ['allure-playwright', { outputFolder: 'allure-results' }],
-  //   ['junit', { outputFile: 'test-results/results.xml' }],
-  //   ['html', { open: 'never' }]
-  // ],
-  reporter: 'html',
+  reporter: [
+    ['list'],
+    ['allure-playwright', { outputFolder: 'allure-results' }],
+    ['junit', { outputFile: 'test-results/results.xml' }],
+    ['html', { open: 'never' }]
+  ],
+  //reporter: 'html',
   projects: [
     {
       name: 'Chromium',
