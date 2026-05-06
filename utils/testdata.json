@@ -1,0 +1,38 @@
+{
+    "logins": [
+        {
+            "email": "MariamTester2@gmail.com",
+            "password": "123456"
+        },
+        {
+            "email": "MariamTester3@gmail.com",
+            "password": "123456"
+        }
+    ],
+    "testCases": [
+        {
+            "productcategory": "Apparel & Shoes",
+            "productname": "Blue Jeans"
+        },
+        {
+            "productcategory": "Jewelry",
+            "productname": "Black & White Diamond Heart"
+        },
+        {
+            "topMenuCategory": "Electronics",
+            "productcategory": "Cell phones",
+            "productname": "Smartphone",
+            "country": "Egypt",
+            "city": "Cairo",
+            "address": "New Cairo",
+            "zip": "1234",
+            "phone": "123456"
+        },
+        {
+            "topMenuCategory": "Digital downloads",
+            "productname": "3rd Album",
+            "topMenuCategory2": "Apparel & Shoes",
+            "productname2": "Blue and green Sneaker"
+        }
+    ]
+}

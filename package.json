@@ -1,0 +1,25 @@
+{
+  "name": "samplewebshop_playwright_javescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "smoke": "npx playwright test --grep @smoke",
+    "chrome": "npx palywright test --config playwright.config.js --project=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure": "^3.6.2",
+    "allure-playwright": "^3.7.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.2"
+  }
+}
